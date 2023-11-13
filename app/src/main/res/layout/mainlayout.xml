@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    android:background="@drawable/gradient1"
+    tools:context=".Menu">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:numColumns="2"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/background_1"-->
+<!--    tools:layout_editor_absoluteX="2dp"-->
+<!--    tools:layout_editor_absoluteY="28dp">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp2"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp2 - Student Info."-->
+<!--        app:backgroundTint="#00BCD4"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.076"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp1"-->
+<!--        app:layout_constraintVertical_bias="0.029" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp1"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="52dp"-->
+<!--        android:text="Exp1 - Metric Conveter"-->
+<!--        app:backgroundTint="#9C27B0"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.093"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+<!--        app:layout_constraintVertical_bias="0.04" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp6"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:text="Exp6-SMS App."-->
+<!--        app:backgroundTint="#E91E63"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.981"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/exp1"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+<!--        app:layout_constraintVertical_bias="0.15" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp7"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp7-App."-->
+<!--        app:backgroundTint="#E9E61E"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.873"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp6"-->
+<!--        app:layout_constraintVertical_bias="0.026" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp8"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp8-App."-->
+<!--        app:backgroundTint="#1EE932"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.873"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp7"-->
+<!--        app:layout_constraintVertical_bias="0.044" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp9"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp9-App."-->
+<!--        app:backgroundTint="#BF0000"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.873"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp8"-->
+<!--        app:layout_constraintVertical_bias="0.103" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp10"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp10-App."-->
+<!--        app:backgroundTint="#E95E1E"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.873"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp9"-->
+<!--        app:layout_constraintVertical_bias="0.158" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp3"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp3-Employee Manage."-->
+<!--        app:backgroundTint="#000080"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.076"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp2"-->
+<!--        app:layout_constraintVertical_bias="0.047" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp4"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp4-Contact App."-->
+<!--        app:backgroundTint="#FF11AF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.061"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp3"-->
+<!--        app:layout_constraintVertical_bias="0.099" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/exp5"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:text="Exp5-Music App."-->
+<!--        app:backgroundTint="#2196F3"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.076"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/exp4"-->
+<!--        app:layout_constraintVertical_bias="0.152" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="168dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Mobile"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24dp"-->
+<!--        app:fontFamily="@font/rock_salt"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.047" />-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

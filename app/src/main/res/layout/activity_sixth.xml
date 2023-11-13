@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:contex=".SixthActivity">
+
+    <EditText
+        android:id="@+id/sixText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="26dp"
+        android:hint="Enter the Mobile No."
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/sixText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixText1"
+        android:layout_alignLeft="@+id/sixText1"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Enter the Message"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/sixtextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sixText1"
+        android:layout_alignBottom="@+id/sixText1"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#808080"
+        android:layout_toLeftOf="@+id/sixText1"
+        android:text="Mobile No:" />
+
+    <TextView
+        android:id="@+id/sixtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sixText2"
+        android:layout_alignBottom="@+id/sixText2"
+        android:textColor="#808080"
+        android:layout_alignLeft="@+id/sixtextView1"
+        android:text="Message:" />
+
+    <Button
+        android:id="@+id/sixbut1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixText2"
+        android:layout_alignLeft="@+id/sixText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="56dp"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/sixbut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixText2"
+        android:layout_alignLeft="@+id/sixText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-56dp"
+        android:layout_marginTop="57dp"
+        android:text="Contact" />
+
+</RelativeLayout>

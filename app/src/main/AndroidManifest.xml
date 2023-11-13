@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mobileexplab">
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:requestLegacyExternalStorage="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="APP HUB"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileExpLab"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SecondActivity2"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".FourthActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".FifthActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SixthActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SevenActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".EightActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".NineActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".TenActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MusicPlayerActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".TorchActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:exported="true">
+        </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+</manifest>

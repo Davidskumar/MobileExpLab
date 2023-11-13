@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "91413289386",
+    "project_id": "mobileexplab",
+    "storage_bucket": "mobileexplab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91413289386:android:dbae3b0d73c954a7b3f3d3",
+        "android_client_info": {
+          "package_name": "com.example.mobileexplab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoIW_B4E5rxuO9kvyRAA9dXuHihCXEPhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
